@@ -77,17 +77,11 @@
                 </div>
             </div>
 
-            <!-- Number of Days -->
-            <div class="form-group">
-                <label for="inputNumDays" class="col-lg-2 control-label">Number of Days</label>
-                <div class="col-lg-10">
-                    <input type="text" class="form-control" id="inputNumDays" placeholder="Number of Days">
-                </div>
-            </div>
+
 
             <!-- Vacation Type -->
             <div class="form-group">
-                <label for="selectVacation" class="col-lg-2 control-label">Vacation Type</label>
+                <label for="selectVacation" class="col-lg-2 control-label">Functional Head</label>
                 <div class="col-lg-10">
                     <select class="form-control" id="selectVacation">
                                 <option selected="selected" value="">Select One</option>
@@ -152,6 +146,28 @@
                 </div>
             </div>
 
+            <!-- Number of Days -->
+            <div class="form-group">
+                <label for="NumDays" class="col-lg-2 control-label">Number of Days</label>
+                <div class="col-lg-10" id="numDays">
+                    <input type="text" class="form-control" id="numDays" placeholder="Number of Days">
+                </div>
+            </div>
+
+            <!-- Vacation Type -->
+            <div class="form-group">
+                <label for="vacationType" class="col-lg-2 control-label">Vacation Type</label>
+                <div class="col-lg-10" id="vacationType">
+                    <select class="form-control">
+                        <option>PTO - Paid (US Only)</option>
+                        <option>PTO - Unpaid (US Only)</option>
+                        <option>Vacation - Paid (non-US)</option>
+                        <option>Vacation - Unpaid (non-US)</option>
+                        <option>Sick Leave (non-US)</option>
+                    </select>
+                </div>
+            </div>
+
             <!-- Submit -->
             <div class="form-group">
                 <label for="submit" class="col-lg-2 control-label"></label>
@@ -162,9 +178,8 @@
             </div>
         </form>
     </div>
-    <script src="http://www.eyecon.ro/bootstrap-datepicker/js/google-code-prettify/prettify.js"></script>
-    <script src="http://www.eyecon.ro/bootstrap-datepicker/js/jquery.js"></script>
-    <script src="http://www.eyecon.ro/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="jquery.js"></script>
+    <script src="bootstrap-datepicker.js"></script>
     <script>
     if (top.location != location) {
         top.location.href = document.location.href;
