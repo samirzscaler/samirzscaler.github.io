@@ -1,5 +1,0 @@
-{
-	"require": {
-		"sendgrid/sendgrid": "2.1.1"
-	}
-}
