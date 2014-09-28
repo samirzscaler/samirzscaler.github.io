@@ -5424,3 +5424,7 @@ button.close {
 .panel-primary .panel-heading, .panel-success .panel-heading, .panel-warning .panel-heading, .panel-danger .panel-heading, .panel-info .panel-heading, .panel-primary .panel-title, .panel-success .panel-title, .panel-warning .panel-title, .panel-danger .panel-title, .panel-info .panel-title {
     color: #fff;
 }
+.header {
+    font-weight: 200;
+    font-size: 400%;
+}

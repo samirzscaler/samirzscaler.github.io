@@ -11,12 +11,13 @@
     </head>
     <body>
         <div class="container" style="text-align:center;">
-            <h1>8-Count</h1>
+            <h1 class="header">8-Count</h1>
 			<h3>Most Recent Hit Indicator</h3>
 			<div class="row">
 
                     <canvas class="loader"></canvas>
                     <script>
+                    //document.write("Chance of concussion");
                         $(document).ready(function() {
                             $('.loader').delay(800).ClassyLoader({
                                 percentage: 37,
@@ -30,12 +31,13 @@
                                 lineColor: 'rgba(100,204,0,0.7)',
                                 remainingLineColor: 'rgba(200,200,200,0.8)',
                                 lineWidth: 15
+
                             });
                         });
                     </script>
+                  
             </div>
             <div class="row">
-
                     <a href="dashboard.html" class="btn btn-default btn-lg">Dashboard</a>
             </div>
         </div>
