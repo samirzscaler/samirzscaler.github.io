@@ -15,14 +15,14 @@
 			<h3 class="header2">Most Recent Hit Indicator</h3>
 			<div class="row">
 
-                    <canvas class="loader"></canvas>
+                  ,  <canvas class="loader"></canvas>
                     <script>
                     //document.write("Chance of concussion");
                         $(document).ready(function() {
                             $('.loader').delay(800).ClassyLoader({
-                                percentage: 37,
+                                percentage: Math.random()*70,
 								fontFamily: "Helvetica Neue", 
-                                speed: 50,
+                                speed: 35,
                                 width: 300,
                                 fontSize: '50px',
 								animate: true,
@@ -31,7 +31,6 @@
                                 lineColor: 'rgba(100,204,0,0.7)',
                                 remainingLineColor: 'rgba(200,200,200,0.8)',
                                 lineWidth: 15
-
                             });
                         });
                     </script>
